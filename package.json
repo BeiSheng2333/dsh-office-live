@@ -1,0 +1,72 @@
+{
+  "name": "dsh-office-live",
+  "version": "0.1.0",
+  "description": "Live Office tools for DeepSeek Harness: read the document the user has open in Word / Excel / PowerPoint, screenshot the application window, and edit it in place through COM.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "docs",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "compatibility": {
+      "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.0 || ^0.1.2-alpha.0 || ^0.1.5-alpha.0 || >=0.2.0-rc.1 <0.3.0-0",
+      "dshReleases": {
+        "0.2.1-rc.2": "compatible"
+      }
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6 || ^0.1.1-rc.0 || ^0.1.2-alpha.0 || ^0.1.5-alpha.0 || >=0.2.0-rc.1 <0.3.0-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "office",
+    "word",
+    "excel",
+    "powerpoint",
+    "live",
+    "com",
+    "automation"
+  ],
+  "author": "BeiSheng2333",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeiSheng2333/dsh-office-live.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BeiSheng2333/dsh-office-live/issues"
+  },
+  "homepage": "https://github.com/BeiSheng2333/dsh-office-live#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

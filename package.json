@@ -68,5 +68,8 @@
   "homepage": "https://github.com/BeiSheng2333/dsh-office-live#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "docx": "^9.15.1"
   }
 }

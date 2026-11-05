@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.zh.md">简体中文</a>
+</p>
+
 # dsh-office-live
 
 给 DeepSeek Harness 的「实时 Office」插件：读取、截屏、修改**用户当前正打开着**的

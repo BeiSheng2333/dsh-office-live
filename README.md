@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.zh.md">简体中文</a>
+</p>
+
 # dsh-office-live
 
 Live Office tools for DeepSeek Harness: read, screenshot and edit **the document the user
